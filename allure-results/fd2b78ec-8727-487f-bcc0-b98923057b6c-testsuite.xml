@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669364949012' stop='1669365031629'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669364968802' status='failed' stop='1669365031459'>
+            <name>KK-T2387 Verify Insurance dashboard card is dismissed after patient filled in all mandatory fields of Insurance questionnaire</name>
+            <title>KK-T2387 Verify Insurance dashboard card is dismissed after patient filled in all mandatory fields of Insurance questionnaire</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2387'/>
+                <label name='story' value='KK-4843 [Patient] Insurance Dashboard Card'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4843'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s21 plus-11.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='samsung galaxy s21 plus'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='App Version' value='4.6.0'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c55e7f40cb8e388f2f65ef7f0c1be5fb0735b4d3'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1669364968804' status='passed' stop='1669364968804'>
+                    <name>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669364968805' status='passed' stop='1669364968805'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/a4485fbb71df99353a549dee048a7c64061d54d8/sessions/934d667fea7436cb67ae00678756c9bf8ec167a6</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/a4485fbb71df99353a549dee048a7c64061d54d8/sessions/934d667fea7436cb67ae00678756c9bf8ec167a6</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669365031459' status='passed' stop='1669365031628'>
+                    <name>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7ce51930-76a4-4fc4-9993-7559db2ee3eb-attachment.png' type='image/png' size='204484'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`android=text("Insurance Information")`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`android=text("Insurance Information")`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:498:51)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

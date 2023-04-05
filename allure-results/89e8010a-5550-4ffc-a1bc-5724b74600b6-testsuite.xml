@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668509552289' stop='1668509983955'>
+    <name>AND-77 Login &amp; Registration</name>
+    <title>AND-77 Login &amp; Registration</title>
+    <test-cases>
+        <test-case start='1668509563948' status='broken' stop='1668509983951'>
+            <name>And-T440 Verify Email field format on Login screen</name>
+            <title>And-T440 Verify Email field format on Login screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='severity' value='minor'/>
+                <label name='story' value='AND-82 Login &amp; Reg. - Splash Login Page'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/AND-T440'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.5.1'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c2094d661617a4e09eecaf67ef78a59a0a601e91'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1668509563954' status='passed' stop='1668509563954'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/85f8864a8c4a87f540014307f1635cd0631573c4/sessions/9dbb15095c437093deb09218d3bbca9931ba6185</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/85f8864a8c4a87f540014307f1635cd0631573c4/sessions/9dbb15095c437093deb09218d3bbca9931ba6185</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509579093' status='passed' stop='1668509579093'>
+                    <name>Input email id is:Abc.example.com</name>
+                    <title>Input email id is:Abc.example.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509585027' status='passed' stop='1668509585027'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509585028' status='passed' stop='1668509585028'>
+                    <name>Input email id is:A@b@c@example.com</name>
+                    <title>Input email id is:A@b@c@example.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509592503' status='passed' stop='1668509592503'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509592503' status='passed' stop='1668509592503'>
+                    <name>Input email id is: johndoe@example.com </name>
+                    <title>Input email id is: johndoe@example.com </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509598611' status='passed' stop='1668509598611'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509598611' status='passed' stop='1668509598611'>
+                    <name>Input email id is:a@k.co</name>
+                    <title>Input email id is:a@k.co</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509793178' status='passed' stop='1668509793178'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509793179' status='passed' stop='1668509793179'>
+                    <name>Input email id is:JOHN.doe@EXAmple.Com</name>
+                    <title>Input email id is:JOHN.doe@EXAmple.Com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509857607' status='passed' stop='1668509857607'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509857607' status='passed' stop='1668509857607'>
+                    <name>Input email id is:abcdefghijklmnopqrstuvwxyz@abcdefghijklmnopqrstuvwxyz.com</name>
+                    <title>Input email id is:abcdefghijklmnopqrstuvwxyz@abcdefghijklmnopqrstuvwxyz.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 420000ms exceeded. The execution in the test "AND-77 Login &amp; Registration And-T440 Verify Email field format on Login screen" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/LoginSpecs/LoginSpec.js)</message>
+                <stack-trace>Error: Timeout of 420000ms exceeded. The execution in the test "AND-77 Login &amp; Registration And-T440 Verify Email field format on Login screen" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/LoginSpecs/LoginSpec.js)
+                    at createTimeoutError (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669365123196' stop='1669365438867'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669365144930' status='broken' stop='1669365438704'>
+            <name>KK-T2387 Verify Insurance dashboard card is dismissed after patient filled in all mandatory fields of Insurance questionnaire</name>
+            <title>KK-T2387 Verify Insurance dashboard card is dismissed after patient filled in all mandatory fields of Insurance questionnaire</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2387'/>
+                <label name='story' value='KK-4843 [Patient] Insurance Dashboard Card'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4843'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s21 plus-11.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='samsung galaxy s21 plus'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='App Version' value='4.6.0'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c55e7f40cb8e388f2f65ef7f0c1be5fb0735b4d3'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1669365144932' status='passed' stop='1669365144933'>
+                    <name>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669365144935' status='passed' stop='1669365144935'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/77e739ed161275fc33ba4fc3e7a5be5b06ba3fb8/sessions/062d095fca5f23c046f81b80e744f18072d0a91b</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/77e739ed161275fc33ba4fc3e7a5be5b06ba3fb8/sessions/062d095fca5f23c046f81b80e744f18072d0a91b</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669365438706' status='failed' stop='1669365438865'>
+                    <name>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='26e9cd75-8c41-4c92-bc72-1873aeda35ab-attachment.png' type='image/png' size='80976'/>
+            </attachments>
+            <failure>
+                <message>Cannot set property 'Self' of undefined</message>
+                <stack-trace>TypeError: Cannot set property 'Self' of undefined
+                    at InsuranceAddressPage.selectState (/Users/sangam/Documents/android/android-automation/test/pageobjects/Insurance/InsuranceAddressPage.js:68:13)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:531:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

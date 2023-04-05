@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669204056072' stop='1669204139337'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669204079138' status='broken' stop='1669204139148'>
+            <name>KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image</name>
+            <title>KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2371'/>
+                <label name='story' value='KK-4841 [Patient] Insurance flow (only Photo Gallery)'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4714'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s21 plus-11.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='samsung galaxy s21 plus'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='App Version' value='4.6.0'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c55e7f40cb8e388f2f65ef7f0c1be5fb0735b4d3'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1669204079139' status='passed' stop='1669204079140'>
+                    <name>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669204079141' status='passed' stop='1669204079141'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/21457bbbac2b9d66021034b5409120cc2580e9cc/sessions/8479e9d72b1c37181c9eba22005ac5a334cf577d</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/21457bbbac2b9d66021034b5409120cc2580e9cc/sessions/8479e9d72b1c37181c9eba22005ac5a334cf577d</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669204139150' status='passed' stop='1669204139336'>
+                    <name>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "KK-4710 Appointment booking for Nile Next + consent Form KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "KK-4710 Appointment booking for Nile Next + consent Form KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js)
+                    at createTimeoutError (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

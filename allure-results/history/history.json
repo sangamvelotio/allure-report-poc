@@ -1,0 +1,543 @@
+{
+  "d0d9c9a2309351b1c049e47b43985343" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db6e4fad6259e545",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669288990871,
+        "stop" : 1669289062560,
+        "duration" : 71689
+      }
+    } ]
+  },
+  "daf30d9b90c14a14c359639a6972fd21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ee61114d189fbec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669029823039,
+        "stop" : 1669029838175,
+        "duration" : 15136
+      }
+    } ]
+  },
+  "787120c3469b913dd5b0e84547a47548" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "766495a6e9bcb4ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669027538234,
+        "stop" : 1669027539308,
+        "duration" : 1074
+      }
+    } ]
+  },
+  "13e0511ac19d27747d1dcd655e3dc00b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3750d9e03f6cd6f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668672327123,
+        "stop" : 1668672337219,
+        "duration" : 10096
+      }
+    } ]
+  },
+  "c0c0de9269a966038a7b8bf41fa88c44" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5244394932182782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668508481422,
+        "stop" : 1668508620867,
+        "duration" : 139445
+      }
+    } ]
+  },
+  "913c6dbaf0084a4cca5b0ee5d94adae6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4fbc220e3a74fd67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669111480642,
+        "stop" : 1669111503753,
+        "duration" : 23111
+      }
+    } ]
+  },
+  "8e80684b991d3dc1e9575024409e26d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e4c38ca556dd120",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1669028472126,
+        "stop" : 1669028485489,
+        "duration" : 13363
+      }
+    } ]
+  },
+  "817e0ec256bac3ac2c4fc6473e2944aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e21db81e1af7fa9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1670247240765,
+        "stop" : 1670247278760,
+        "duration" : 37995
+      }
+    } ]
+  },
+  "c3b2d6972333b2c6c81293da8df0f7f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a1c72a1b87b4d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1670233934699,
+        "stop" : 1670233982338,
+        "duration" : 47639
+      }
+    } ]
+  },
+  "90b6752172575f85ab4ee94f628297cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "731853bf55d6f6b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1670327195963,
+        "stop" : 1670327258305,
+        "duration" : 62342
+      }
+    } ]
+  },
+  "f49341a362314fea61c72512bc3d17ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83116fdf51d0a35f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668509851111,
+        "stop" : 1668510104776,
+        "duration" : 253665
+      }
+    } ]
+  },
+  "2a24167a8fd0c2e32014fc743538b4c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41a652385916ffd6",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`android=text(\"Medical history is required to finalize your appointment\")`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1669027712686,
+        "stop" : 1669027785779,
+        "duration" : 73093
+      }
+    } ]
+  },
+  "182434fb57759712d7bace5c2682bf11" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9ab7642e0f922bd",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true      \n                      actual expected\n                      \n                      falsetrue\n                      ",
+      "time" : {
+        "start" : 1670919797555,
+        "stop" : 1670925365254,
+        "duration" : 5567699
+      }
+    } ]
+  },
+  "6a5fdda8c04e5b3222ddba7af4ddf8b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "435ea8f97a9fdbe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669988074234,
+        "stop" : 1669988177736,
+        "duration" : 103502
+      }
+    } ]
+  },
+  "b56605ed9d0f103be4d819757b5b3ef0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "832a1b9ae2d09259",
+      "status" : "passed",
+      "time" : {
+        "start" : 1670499208125,
+        "stop" : 1670499266992,
+        "duration" : 58867
+      }
+    } ]
+  },
+  "8793c66b8b4952c1ad6bef21122f3bba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7dd6b3c23b29ab3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668508968881,
+        "stop" : 1668509013781,
+        "duration" : 44900
+      }
+    } ]
+  },
+  "e33426924e6987457b03891a9a8bc2bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74c8de772e961cae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1670411296054,
+        "stop" : 1670411353721,
+        "duration" : 57667
+      }
+    } ]
+  },
+  "5e23e4d34bf9817c825d04df93b522e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91d2dd6e5ead225a",
+      "status" : "broken",
+      "statusDetails" : "element (\"-ios predicate string:label == 'GET MORE FROM NILE'\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1671445711740,
+        "stop" : 1671445711740,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e8eaba5623b7554802541bfc204891b4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2601788fc5af1ba",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`android=text(\"Medical history is required to finalize your appointment\")`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1669029609251,
+        "stop" : 1669029703192,
+        "duration" : 93941
+      }
+    } ]
+  },
+  "c5e4e3f49093d6325d05c89d7b8d2857" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24436e1532b08f0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669184772150,
+        "stop" : 1669184789749,
+        "duration" : 17599
+      }
+    } ]
+  },
+  "3ed34e5411282841bbe97f15925130b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b37a2596a7e8fff",
+      "status" : "broken",
+      "statusDetails" : "A session is either terminated or not started",
+      "time" : {
+        "start" : 1669110579138,
+        "stop" : 1669110652962,
+        "duration" : 73824
+      }
+    } ]
+  },
+  "8422c1ff29367a130b48f156433c44ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec8986b4be200058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669287826190,
+        "stop" : 1669287917240,
+        "duration" : 91050
+      }
+    } ]
+  },
+  "7ae6f075f71f78419e1c948eea23ba89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4cab274375ad329",
+      "status" : "passed",
+      "time" : {
+        "start" : 1670494326042,
+        "stop" : 1670494408813,
+        "duration" : 82771
+      }
+    } ]
+  },
+  "8942880ac145a318728c19c2aefdf260" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bdf3ef49aa66957a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668510449984,
+        "stop" : 1668510662303,
+        "duration" : 212319
+      }
+    } ]
+  },
+  "8c7a5d2673b55671562fe0621efc0c43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "531f985559339246",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"KK-4710 Appointment booking for Nile Next + consent Form KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js)",
+      "time" : {
+        "start" : 1669206158404,
+        "stop" : 1669206218414,
+        "duration" : 60010
+      }
+    } ]
+  },
+  "15022ae864bd219ef2e6ddf43acfc75f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4935d4161d99dc18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668510386146,
+        "stop" : 1668510597662,
+        "duration" : 211516
+      }
+    } ]
+  },
+  "fdd7058a7ae3ae327031cbcef2db4aea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e32c3e17c17ee33e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 1234567ms exceeded. The execution in the test \"KK-4710 Appointment booking for Nile Next + consent Form KK-T2387 Verify Insurance dashboard card is dismissed after patient filled in all mandatory fields of Insurance questionnaire\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js)",
+      "time" : {
+        "start" : 1669374721974,
+        "stop" : 1669375956550,
+        "duration" : 1234576
+      }
+    } ]
+  },
+  "af8ae408ae52f2bf6d2ccff6d7d0b34d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d44ed0aeb3066bb",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1668672337451,
+        "stop" : 1668672347058,
+        "duration" : 9607
+      }
+    } ]
+  }
+}

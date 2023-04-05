@@ -1,0 +1,289 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668510373930' stop='1668510597665'>
+    <name>AND-77 Login &amp; Registration</name>
+    <title>AND-77 Login &amp; Registration</title>
+    <test-cases>
+        <test-case start='1668510386146' status='passed' stop='1668510597662'>
+            <name>And-T440 Verify Email field format on Login screen</name>
+            <title>And-T440 Verify Email field format on Login screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='severity' value='minor'/>
+                <label name='story' value='AND-82 Login &amp; Reg. - Splash Login Page'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/AND-T440'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.5.1'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c2094d661617a4e09eecaf67ef78a59a0a601e91'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1668510386147' status='passed' stop='1668510386147'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/b72f837e2ef33d326486b7cceac422bc7de25d02/sessions/468642a745b36514eae2e734b1ca24e885829d31</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/b72f837e2ef33d326486b7cceac422bc7de25d02/sessions/468642a745b36514eae2e734b1ca24e885829d31</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510400537' status='passed' stop='1668510400537'>
+                    <name>Input email id is:Abc.example.com</name>
+                    <title>Input email id is:Abc.example.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510408148' status='passed' stop='1668510408148'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510408148' status='passed' stop='1668510408148'>
+                    <name>Input email id is:A@b@c@example.com</name>
+                    <title>Input email id is:A@b@c@example.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510416399' status='passed' stop='1668510416400'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510416400' status='passed' stop='1668510416400'>
+                    <name>Input email id is: johndoe@example.com </name>
+                    <title>Input email id is: johndoe@example.com </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510424126' status='passed' stop='1668510424126'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510424126' status='passed' stop='1668510424126'>
+                    <name>Input email id is:a@k.co</name>
+                    <title>Input email id is:a@k.co</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510430823' status='passed' stop='1668510430823'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510430823' status='passed' stop='1668510430823'>
+                    <name>Input email id is:JOHN.doe@EXAmple.Com</name>
+                    <title>Input email id is:JOHN.doe@EXAmple.Com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510437155' status='passed' stop='1668510437156'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510437156' status='passed' stop='1668510437156'>
+                    <name>Input email id is:abcdefghijklmnopqrstuvwxyz@abcdefghijklmnopqrstuvwxyz.com</name>
+                    <title>Input email id is:abcdefghijklmnopqrstuvwxyz@abcdefghijklmnopqrstuvwxyz.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510446097' status='passed' stop='1668510446097'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510446097' status='passed' stop='1668510446097'>
+                    <name>Input email id is:ABCDEFGHIJKLMNOPQRSTUVWXYZ@ABCDEFGHIJKLMNOPQRSTUVWXYZ.COM</name>
+                    <title>Input email id is:ABCDEFGHIJKLMNOPQRSTUVWXYZ@ABCDEFGHIJKLMNOPQRSTUVWXYZ.COM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510457193' status='passed' stop='1668510457193'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510457194' status='passed' stop='1668510457194'>
+                    <name>Input email id is:128kognnzaebuxresiywzvpppiugiktdflitsimydpnubthtyundzzzhyarlxxfe@rteydmsfbtyeorsybnaleumrtrtwtualuccuqmfzzdwmlqyewtynippkefd.com</name>
+                    <title>Input email id is:128kognnzaebuxresiywzvpppiugiktdflitsimydpnubthtyundzzzhyarlxxfe@rteydmsfbtyeorsybnaleumrtrtwtualuccuqmfzzdwmlqyewtynippkefd.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510470110' status='passed' stop='1668510470110'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510470110' status='passed' stop='1668510470110'>
+                    <name>Input email id is:aaa0123456789@gmail0123456789.com</name>
+                    <title>Input email id is:aaa0123456789@gmail0123456789.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510484845' status='passed' stop='1668510484845'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510484846' status='passed' stop='1668510484846'>
+                    <name>Input email id is:@gmail.com</name>
+                    <title>Input email id is:@gmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510494233' status='passed' stop='1668510494233'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510494233' status='passed' stop='1668510494233'>
+                    <name>Input email id is:!#$’*/=?^`{|}~@example.com</name>
+                    <title>Input email id is:!#$’*/=?^`{|}~@example.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510502905' status='passed' stop='1668510502905'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510502905' status='passed' stop='1668510502905'>
+                    <name>Input email id is:john.doe_jk%arm+us-mason@gmail.com</name>
+                    <title>Input email id is:john.doe_jk%arm+us-mason@gmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510511677' status='passed' stop='1668510511677'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510511677' status='passed' stop='1668510511677'>
+                    <name>Input email id is:1234567890123456789012345678901234567890123456789012345678901234@example.com</name>
+                    <title>Input email id is:1234567890123456789012345678901234567890123456789012345678901234@example.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510521644' status='passed' stop='1668510521644'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510521644' status='passed' stop='1668510521644'>
+                    <name>Input email id is:example@.am</name>
+                    <title>Input email id is:example@.am</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510534140' status='passed' stop='1668510534140'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510534140' status='passed' stop='1668510534140'>
+                    <name>Input email id is:aaa@domain.new-subdomain.com</name>
+                    <title>Input email id is:aaa@domain.new-subdomain.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510542348' status='passed' stop='1668510542348'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510542349' status='passed' stop='1668510542349'>
+                    <name>Input email id is:aaa@example.</name>
+                    <title>Input email id is:aaa@example.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510552270' status='passed' stop='1668510552270'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510552271' status='passed' stop='1668510552271'>
+                    <name>Input email id is:aaa@gmail.com.</name>
+                    <title>Input email id is:aaa@gmail.com.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510560026' status='passed' stop='1668510560026'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510560027' status='passed' stop='1668510560027'>
+                    <name>Input email id is:example@localhost.a</name>
+                    <title>Input email id is:example@localhost.a</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510568127' status='passed' stop='1668510568127'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510568127' status='passed' stop='1668510568127'>
+                    <name>Input email id is:aaa@gmail.co$m</name>
+                    <title>Input email id is:aaa@gmail.co$m</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510576365' status='passed' stop='1668510576365'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510576365' status='passed' stop='1668510576365'>
+                    <name>Input email id is:aaa@gmail.co34m</name>
+                    <title>Input email id is:aaa@gmail.co34m</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510585994' status='passed' stop='1668510585994'>
+                    <name>Error message is:Please provide a valid email.</name>
+                    <title>Error message is:Please provide a valid email.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510585994' status='passed' stop='1668510585994'>
+                    <name>Input email id is:test@example.xgwcqwomltbeurwnbiynznticpmsgcdibmbctwxjxxczkqhxowvcdgkcgkuqkerr</name>
+                    <title>Input email id is:test@example.xgwcqwomltbeurwnbiynznticpmsgcdibmbctwxjxxczkqhxowvcdgkcgkuqkerr</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668510594358' status='passed' stop='1668510594358'>
+                    <name>No error message</name>
+                    <title>No error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

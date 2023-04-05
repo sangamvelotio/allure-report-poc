@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669960950231' stop='1669961078605'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669960983171' status='broken' stop='1669961078589'>
+            <name>KK-2365 Verify all changes from each screen are saved and sent to the server every time pressing Back, Exit and Next buttons</name>
+            <title>KK-2365 Verify all changes from each screen are saved and sent to the server every time pressing Back, Exit and Next buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2365'/>
+                <label name='story' value='KK-4841 [Patient] Insurance flow (only Photo Gallery)'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4841'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.6.0'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://5bba007f5b00a3e1bae4e1006e073bcfdab3be51'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1669960983171' status='passed' stop='1669960983172'>
+                    <name>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669960983172' status='passed' stop='1669960983172'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/8c585ac04b85bfe8cc1b4a5f670bc2519fe56637/sessions/4f213f8d228ab123e775074b2fcac5a2966b48af</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/8c585ac04b85bfe8cc1b4a5f670bc2519fe56637/sessions/4f213f8d228ab123e775074b2fcac5a2966b48af</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669961078593' status='failed' stop='1669961078594'>
+                    <name>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: A sessionId is required for this command</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: A sessionId is required for this command
+                    at Element.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:287:37)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

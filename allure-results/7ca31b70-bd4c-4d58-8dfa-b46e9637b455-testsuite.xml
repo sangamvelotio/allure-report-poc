@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669984714194' stop='1669984888349'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669984748333' status='broken' stop='1669984888024'>
+            <name>KK-2365 Verify all changes from each screen are saved and sent to the server every time pressing Back, Exit and Next buttons</name>
+            <title>KK-2365 Verify all changes from each screen are saved and sent to the server every time pressing Back, Exit and Next buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2365'/>
+                <label name='story' value='KK-4841 [Patient] Insurance flow (only Photo Gallery)'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4841'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.6.0'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://5bba007f5b00a3e1bae4e1006e073bcfdab3be51'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1669984748335' status='passed' stop='1669984748335'>
+                    <name>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669984748336' status='passed' stop='1669984748336'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/3e2afdc133f991d002abb131e85da3eed77ed51c/sessions/1fd85ee22ff4e24319d74db4fee492c8b52a7faa</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/3e2afdc133f991d002abb131e85da3eed77ed51c/sessions/1fd85ee22ff4e24319d74db4fee492c8b52a7faa</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669984888026' status='failed' stop='1669984888347'>
+                    <name>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e339ba93-3e7f-4046-a1ed-2ed2fc6fdf40-attachment.png' type='image/png' size='3294455'/>
+            </attachments>
+            <failure>
+                <message>element ("-ios class chain:**/XCUIElementTypeStaticText[`label BEGINSWITH "*Contact Nile at"`]") still not displayed after 60000ms</message>
+                <stack-trace>Error: element ("-ios class chain:**/XCUIElementTypeStaticText[`label BEGINSWITH "*Contact Nile at"`]") still not displayed after 60000ms
+                    at Element.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:300:39)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

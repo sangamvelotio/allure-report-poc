@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670322518903' stop='1670322647398'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1670322562153' status='failed' stop='1670322646288'>
+            <name>KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image</name>
+            <title>KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2371'/>
+                <label name='story' value='KK-4841 [Patient] Insurance flow (only Photo Gallery)'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4714'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.6.0'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://5bba007f5b00a3e1bae4e1006e073bcfdab3be51'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1670322562155' status='passed' stop='1670322562156'>
+                    <name>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670322562157' status='passed' stop='1670322562157'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/5dbcd2b25c442d66373422aafe13fc2323d8ca07/sessions/e4cae2d22da1fe358b0ee811e9ae7d63b1efcf96</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/5dbcd2b25c442d66373422aafe13fc2323d8ca07/sessions/e4cae2d22da1fe358b0ee811e9ae7d63b1efcf96</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670322646289' status='passed' stop='1670322647398'>
+                    <name>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d2a1b893-7dd0-4204-910c-aea5524260f9-attachment.png' type='image/png' size='382160'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`-ios class chain:**/XCUIElementTypeStaticText[`label BEGINSWITH "*Contact Nile at"`]`) to have text
+                
+                Expected: "*Contact Nile at (818) 456–0554 if you need help entering your insurance information."
+                Received: "*Contact Nile at (818) 456-0554 if you need help entering your insurance information."</message>
+                <stack-trace>Error: Expect $(`-ios class chain:**/XCUIElementTypeStaticText[`label BEGINSWITH "*Contact Nile at"`]`) to have text
+                
+                Expected: "*Contact Nile at (818) 456–0554 if you need help entering your insurance information."
+                Received: "*Contact Nile at (818) 456-0554 if you need help entering your insurance information."
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:433:47)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669288990870' stop='1669289062560'>
+    <name>Link Care Team</name>
+    <title>Link Care Team</title>
+    <test-cases>
+        <test-case start='1669288990871' status='passed' stop='1669289062560'>
+            <name>KK-T1286 Verify user is able to link to doctor with valid verification code</name>
+            <title>KK-T1286 Verify user is able to link to doctor with valid verification code</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T1286'/>
+                <label name='story' value='KK-2266 Patient - Link Care Team'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-2266'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='environment-variable' name='DeviceName' value='emulator-5554'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1669289003772' status='passed' stop='1669289003772'>
+                    <name>click on Login button</name>
+                    <title>click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669289003915' status='passed' stop='1669289003915'>
+                    <name>Wait for welcome text to be present</name>
+                    <title>Wait for welcome text to be present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Console Logs' source='7d1d76d6-8bcc-4b3f-bbaf-27a2b6652710-attachment.html' type='text/html' size='212'/>
+                <attachment title='Console Logs' source='c74e7a5d-2541-4b88-bc20-69db26c66ece-attachment.html' type='text/html' size='212'/>
+                <attachment title='Console Logs' source='24c60164-b52c-4564-bf47-3f1555b2bdb7-attachment.html' type='text/html' size='6454'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

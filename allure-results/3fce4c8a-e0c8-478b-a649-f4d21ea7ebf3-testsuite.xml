@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669285695245' stop='1669285810802'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669285716655' status='broken' stop='1669285810585'>
+            <name>KK-2365 Verify all changes from each screen are saved and sent to the server every time pressing Back, Exit and Next buttons</name>
+            <title>KK-2365 Verify all changes from each screen are saved and sent to the server every time pressing Back, Exit and Next buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2365'/>
+                <label name='story' value='KK-4841 [Patient] Insurance flow (only Photo Gallery)'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4841'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s21 plus-11.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='samsung galaxy s21 plus'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='App Version' value='4.6.0'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c55e7f40cb8e388f2f65ef7f0c1be5fb0735b4d3'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1669285716657' status='passed' stop='1669285716657'>
+                    <name>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"before each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669285716658' status='passed' stop='1669285716658'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/c952dcdc6ee73bf77168f707b6bf564d6692ec8b/sessions/740eba975a42d7d1660ff11cdf7f158de6d9e117</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/c952dcdc6ee73bf77168f707b6bf564d6692ec8b/sessions/740eba975a42d7d1660ff11cdf7f158de6d9e117</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669285810587' status='passed' stop='1669285810800'>
+                    <name>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+                    <title>"after each" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9b2ac69a-3997-43d7-8263-52beb44e0503-attachment.png' type='image/png' size='924152'/>
+            </attachments>
+            <failure>
+                <message>element ("android=text("Photo Gallery")") still not displayed after 60000ms</message>
+                <stack-trace>Error: element ("android=text("Photo Gallery")") still not displayed after 60000ms
+                    at Element.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:278:40)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

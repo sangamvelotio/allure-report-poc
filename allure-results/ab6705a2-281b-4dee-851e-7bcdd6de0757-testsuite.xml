@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669028472125' stop='1669028485490'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669028472126' status='broken' stop='1669028485489'>
+            <name>"before all" hook for KK-4710 Appointment booking for Nile Next + consent Form</name>
+            <title>"before all" hook for KK-4710 Appointment booking for Nile Next + consent Form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1669028485451' status='passed' stop='1669028485451'>
+                    <name>click on Login button</name>
+                    <title>click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Console Logs' source='87d527c5-5fda-4aef-9602-ba9d47f2ff4f-attachment.html' type='text/html' size='461'/>
+            </attachments>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Browser.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/sangam/Documents/android/android-automation/node_modules/@wdio/runner/build/index.js:194:42)
+                    at LoginPage.loginBtn (/Users/sangam/Documents/android/android-automation/test/pageobjects/LoginPage.js:28:102)
+                    at LoginPage.doLogin (/Users/sangam/Documents/android/android-automation/test/pageobjects/LoginPage.js:75:14)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:24:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

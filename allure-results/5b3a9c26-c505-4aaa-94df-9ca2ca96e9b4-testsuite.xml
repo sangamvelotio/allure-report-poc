@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670494326041' stop='1670494408814'>
+    <name>AND-77 Login &amp; Registration</name>
+    <title>AND-77 Login &amp; Registration</title>
+    <test-cases>
+        <test-case start='1670494326042' status='passed' stop='1670494408813'>
+            <name>AND-T771,KK-T2000 Verify user is able to register with an email address which has been invited by HCP &amp;&amp; Verify the Product tour starts when user presses the "Start tour" button</name>
+            <title>AND-T771,KK-T2000 Verify user is able to register with an email address which has been invited by HCP &amp;&amp; Verify the Product tour starts when user presses the "Start tour" button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='story' value='AND-86 Login &amp; Reg. - 5 Verify Account, OTP, Restart'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/AND-T771'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/AND-86'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='environment-variable' name='DeviceName' value='emulator-5554'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1670494335371' status='passed' stop='1670494335371'>
+                    <name>On Email and password screen</name>
+                    <title>On Email and password screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494343415' status='passed' stop='1670494343415'>
+                    <name>On Basic Profile screen</name>
+                    <title>On Basic Profile screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494345033' status='passed' stop='1670494345033'>
+                    <name>On Hippa Compliance Screen</name>
+                    <title>On Hippa Compliance Screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494390887' status='passed' stop='1670494390887'>
+                    <name>User is successfully created and email id is:qa-automation+mfr9t@kokoon.dev</name>
+                    <title>User is successfully created and email id is:qa-automation+mfr9t@kokoon.dev</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494392392' status='passed' stop='1670494392392'>
+                    <name>First Page Product desctiption is: Here you will see your upcoming meds, and notifications if there's an action to take. Scroll down to see the overview of everything you logged for the week.</name>
+                    <title>First Page Product desctiption is: Here you will see your upcoming meds, and notifications if there's an action to take. Scroll down to see the overview of everything you logged for the week.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494393544' status='passed' stop='1670494393544'>
+                    <name>Second Page Product description is: Your dashboard also provides more detailed reports about your seizures and side effects.</name>
+                    <title>Second Page Product description is: Your dashboard also provides more detailed reports about your seizures and side effects.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494394893' status='passed' stop='1670494394893'>
+                    <name>Third Page Product desctiption is: At the bottom of your detailed report you will find the calendar view of your logged health history. You can also edit previously logged events here.</name>
+                    <title>Third Page Product desctiption is: At the bottom of your detailed report you will find the calendar view of your logged health history. You can also edit previously logged events here.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494396311' status='passed' stop='1670494396311'>
+                    <name>Fourth Page Product desctiption is: If your doctor is using Nile, you will receive an email invitation to link your account with your care team. You can skip this step if you are using Nile on you own.</name>
+                    <title>Fourth Page Product desctiption is: If your doctor is using Nile, you will receive an email invitation to link your account with your care team. You can skip this step if you are using Nile on you own.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494397751' status='passed' stop='1670494397751'>
+                    <name>Fifth Page Product desctiption is: If your doctor uses Nile and sent you an email invitation, simply click on the Link Care Team button in the email. Or you can copy/paste your unique code.</name>
+                    <title>Fifth Page Product desctiption is: If your doctor uses Nile and sent you an email invitation, simply click on the Link Care Team button in the email. Or you can copy/paste your unique code.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494399037' status='passed' stop='1670494399037'>
+                    <name>Sixth Page Product desctiption is: Your doctor can add your meds to your Nile account. You will get notified of changes and updates.</name>
+                    <title>Sixth Page Product desctiption is: Your doctor can add your meds to your Nile account. You will get notified of changes and updates.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494400576' status='passed' stop='1670494400576'>
+                    <name>Seventh Page Product desctiption is: You can also add your own medication you want to keep track of and set custom reminders.</name>
+                    <title>Seventh Page Product desctiption is: You can also add your own medication you want to keep track of and set custom reminders.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494401878' status='passed' stop='1670494401878'>
+                    <name>Eightth Page Product desctiption is: Tap the plus sign to log a seizure, aura or side effect. Follow the screens to log all important details.</name>
+                    <title>Eightth Page Product desctiption is: Tap the plus sign to log a seizure, aura or side effect. Follow the screens to log all important details.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494403346' status='passed' stop='1670494403346'>
+                    <name>Ninth Page Product desctiption is: Epilepsy is a complex disorder. Find answers to your questions in our content library.</name>
+                    <title>Ninth Page Product desctiption is: Epilepsy is a complex disorder. Find answers to your questions in our content library.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494404591' status='passed' stop='1670494404591'>
+                    <name>Tenth Page Product desctiption is: You can take anxiety and depression surveys at any time to keep track of your mental health. If your doctor is using Nile they can assign other surveys for you to take as well.</name>
+                    <title>Tenth Page Product desctiption is: You can take anxiety and depression surveys at any time to keep track of your mental health. If your doctor is using Nile they can assign other surveys for you to take as well.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670494405952' status='passed' stop='1670494405952'>
+                    <name>Eleventh Page Product desctiption is: Invite a caregiver to see everything you log and/or log on your behalf.</name>
+                    <title>Eleventh Page Product desctiption is: Invite a caregiver to see everything you log and/or log on your behalf.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Console Logs' source='44718da2-720e-4a5a-adae-7c06f7c248a6-attachment.html' type='text/html' size='246'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

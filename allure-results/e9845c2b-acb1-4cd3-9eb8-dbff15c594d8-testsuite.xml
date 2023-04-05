@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668508445443' stop='1668508622679'>
+    <name>AND-58 Record Events</name>
+    <title>AND-58 Record Events</title>
+    <test-cases>
+        <test-case start='1668508481422' status='passed' stop='1668508620867'>
+            <name>KK-T2171 Verify user is able to watch the uploaded video from the Seizure Updated screen</name>
+            <title>KK-T2171 Verify user is able to watch the uploaded video from the Seizure Updated screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='severity' value='Normal'/>
+                <label name='story' value='KK-4198 [Patient] Watch seizure video'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2171'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4198'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.5.1'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c2094d661617a4e09eecaf67ef78a59a0a601e91'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1668508481424' status='passed' stop='1668508482496'>
+                    <name>"before each" hook for AND-58 Record Events</name>
+                    <title>"before each" hook for AND-58 Record Events</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508482497' status='passed' stop='1668508482497'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/50ee3fa0fc909c0b543cba3a9f5c671a493b859a/sessions/82b3460665ff9ffa58f08bab68658ee493199ee4</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/50ee3fa0fc909c0b543cba3a9f5c671a493b859a/sessions/82b3460665ff9ffa58f08bab68658ee493199ee4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508620870' status='passed' stop='1668508622679'>
+                    <name>"after each" hook for AND-58 Record Events</name>
+                    <title>"after each" hook for AND-58 Record Events</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Console Logs' source='a4b16c54-59d4-4972-9f9f-2f1b22537643-attachment.html' type='text/html' size='214'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

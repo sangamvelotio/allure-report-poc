@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670831913070' stop='1670831992938'>
+    <name>AND-10 Account Section</name>
+    <title>AND-10 Account Section</title>
+    <test-cases>
+        <test-case start='1670831992936' status='broken' stop='1670831992937'>
+            <name>"before all" hook for AND-10 Account Section</name>
+            <title>"before all" hook for AND-10 Account Section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("-ios predicate string:label == "Log In" AND name == "Log In"") still existing after 60000ms</message>
+                <stack-trace>Error: element ("-ios predicate string:label == "Log In" AND name == "Log In"") still existing after 60000ms
+                    at Element.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at LoginPage.doLogin (/Users/sangam/Documents/android/android-automation/test/pageobjects/LoginPage.js:77:23)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/SelfAssessmentSpecs/SelfAssessmentSpec.js:32:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

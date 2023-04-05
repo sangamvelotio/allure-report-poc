@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669027401584' stop='1669027429492'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669027401585' status='passed' stop='1669027429491'>
+            <name>KK-2367 Verify user is redirected to Address screen in case answering no to the question on the first Insurance screen</name>
+            <title>KK-2367 Verify user is redirected to Address screen in case answering no to the question on the first Insurance screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2300'/>
+                <label name='story' value='KK-4841 [Patient] Insurance flow (only Photo Gallery)'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4714'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='environment-variable' name='DeviceName' value='emulator-5554'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1669027414526' status='passed' stop='1669027414527'>
+                    <name>click on Login button</name>
+                    <title>click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669027414666' status='passed' stop='1669027414666'>
+                    <name>Wait for welcome text to be present</name>
+                    <title>Wait for welcome text to be present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668509567799' stop='1668509772646'>
+    <name>KK-3810 Logging Seizure-free days</name>
+    <title>KK-3810 Logging Seizure-free days</title>
+    <test-cases>
+        <test-case start='1668509567799' status='broken' stop='1668509767800'>
+            <name>KK-T2056 Verify seizure-free log is deleted when a seizure is added to that day via edit</name>
+            <title>KK-T2056 Verify seizure-free log is deleted when a seizure is added to that day via edit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='story' value='KK-3775 [Patient] Logging a seizure - free day'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2056'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-3775'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.5.1'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c2094d661617a4e09eecaf67ef78a59a0a601e91'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1668509567800' status='passed' stop='1668509567801'>
+                    <name>"before each" hook for KK-3810 Logging Seizure-free days</name>
+                    <title>"before each" hook for KK-3810 Logging Seizure-free days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509567802' status='passed' stop='1668509567802'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/85f8864a8c4a87f540014307f1635cd0631573c4/sessions/9087ac5854e19ddca370ce457de01b730beb1454</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/85f8864a8c4a87f540014307f1635cd0631573c4/sessions/9087ac5854e19ddca370ce457de01b730beb1454</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509612102' status='passed' stop='1668509612102'>
+                    <name>click on Login button</name>
+                    <title>click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509612867' status='passed' stop='1668509612867'>
+                    <name>Wait for welcome text to be present</name>
+                    <title>Wait for welcome text to be present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668509767802' status='passed' stop='1668509772644'>
+                    <name>"after each" hook for KK-3810 Logging Seizure-free days</name>
+                    <title>"after each" hook for KK-3810 Logging Seizure-free days</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 200000ms exceeded. The execution in the test "KK-3810 Logging Seizure-free days KK-T2056 Verify seizure-free log is deleted when a seizure is added to that day via edit" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/SeizureFreeDaysSpecs/seizurefreedayspecs.js)</message>
+                <stack-trace>Error: Timeout of 200000ms exceeded. The execution in the test "KK-3810 Logging Seizure-free days KK-T2056 Verify seizure-free log is deleted when a seizure is added to that day via edit" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/SeizureFreeDaysSpecs/seizurefreedayspecs.js)
+                    at createTimeoutError (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,187 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668508746346' stop='1668508867362'>
+    <name>KK-618 Timeline</name>
+    <title>KK-618 Timeline</title>
+    <test-cases>
+        <test-case start='1668508746348' status='failed' stop='1668508866164'>
+            <name>KK-T745 Verify missed doses graph is updated for 7 days/30 days/180 days periods</name>
+            <title>KK-T745 Verify missed doses graph is updated for 7 days/30 days/180 days periods</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-15.0'/>
+                <parameter kind='environment-variable' name='DeviceName' value='iphone'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='iOS'/>
+                <parameter kind='environment-variable' name='OS Version' value='undefined'/>
+                <parameter kind='environment-variable' name='App Version' value='4.5.1'/>
+                <parameter kind='environment-variable' name='App URL' value='bs://c2094d661617a4e09eecaf67ef78a59a0a601e91'/>
+                <parameter kind='environment-variable' name='App Name' value='ai.nile.patient.qa'/>
+            </parameters>
+            <steps>
+                <step start='1668508746349' status='passed' stop='1668508746349'>
+                    <name>"before each" hook for KK-618 Timeline</name>
+                    <title>"before each" hook for KK-618 Timeline</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508746350' status='passed' stop='1668508746350'>
+                    <name>Browser URL:https://app-automate.browserstack.com/builds/50ee3fa0fc909c0b543cba3a9f5c671a493b859a/sessions/21b23f5cc37e3e81ce5da2304453ca4e45d0694f</name>
+                    <title>Browser URL:https://app-automate.browserstack.com/builds/50ee3fa0fc909c0b543cba3a9f5c671a493b859a/sessions/21b23f5cc37e3e81ce5da2304453ca4e45d0694f</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508767054' status='passed' stop='1668508767054'>
+                    <name>click on Login button</name>
+                    <title>click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508769004' status='passed' stop='1668508769004'>
+                    <name>Wait for welcome text to be present</name>
+                    <title>Wait for welcome text to be present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508801544' status='passed' stop='1668508801544'>
+                    <name>Missed doses count for the week:0</name>
+                    <title>Missed doses count for the week:0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508807297' status='passed' stop='1668508807297'>
+                    <name>Missed doses count for the month:57</name>
+                    <title>Missed doses count for the month:57</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508813026' status='passed' stop='1668508813026'>
+                    <name>Missed doses count for the 6 month:57</name>
+                    <title>Missed doses count for the 6 month:57</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668508866165' status='passed' stop='1668508867361'>
+                    <name>"after each" hook for KK-618 Timeline</name>
+                    <title>"after each" hook for KK-618 Timeline</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b4de188c-a6a6-4360-b587-e12c6ba5aa5e-attachment.png' type='image/png' size='529462'/>
+            </attachments>
+            <failure>
+                <message>The previously found element "Button" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: No matches found for Elements matching predicate 'wdLabel == "Check all for the day" AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0 OR selected == 0)' from input {(
+                    Button, {{2.0, 730.0}, {71.0, 48.0}}, identifier: 'home',
+                    Button, {{77.0, 730.0}, {71.0, 48.0}}, Selected,
+                    Button, {{152.0, 730.0}, {71.0, 48.0}}, identifier: 'action',
+                    Button, {{227.0, 730.0}, {71.0, 48.0}}, identifier: 'library',
+                    Button, {{302.0, 730.0}, {71.0, 48.0}}, identifier: 'account', value: ●,
+                    Button, {{16.0, 228.0}, {343.0, 18.0}}, label: 'View Medication &amp; Reminder Details',
+                    Button, {{16.0, 166.0}, {171.0, 33.0}}, label: 'DR. ADDED', Selected,
+                    Button, {{188.0, 166.0}, {171.0, 33.0}}, label: 'MY OWN MEDS',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken', Selected,
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken', Selected,
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken', Selected,
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken', Selected,
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken', Selected,
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 268.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 367.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 367.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 268.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 505.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 604.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 604.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 505.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 742.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 841.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 841.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 742.7}, {93.7, 24.0}}, label: 'Taken'
+                )}</message>
+                <stack-trace>WebDriver Error: The previously found element "Button" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: No matches found for Elements matching predicate 'wdLabel == "Check all for the day" AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0 OR selected == 0)' from input {(
+                    Button, {{2.0, 730.0}, {71.0, 48.0}}, identifier: 'home',
+                    Button, {{77.0, 730.0}, {71.0, 48.0}}, Selected,
+                    Button, {{152.0, 730.0}, {71.0, 48.0}}, identifier: 'action',
+                    Button, {{227.0, 730.0}, {71.0, 48.0}}, identifier: 'library',
+                    Button, {{302.0, 730.0}, {71.0, 48.0}}, identifier: 'account', value: ●,
+                    Button, {{16.0, 228.0}, {343.0, 18.0}}, label: 'View Medication &amp; Reminder Details',
+                    Button, {{16.0, 166.0}, {171.0, 33.0}}, label: 'DR. ADDED', Selected,
+                    Button, {{188.0, 166.0}, {171.0, 33.0}}, label: 'MY OWN MEDS',
+                    Button, {{0.0, -7089.3}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{0.0, -7089.3}, {93.7, 24.0}}, label: 'Taken', Selected,
+                    Button, {{237.7, 268.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 367.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 367.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 268.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 505.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 604.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 604.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 505.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 742.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 841.7}, {93.7, 24.0}}, label: 'Taken',
+                    Button, {{237.7, 841.7}, {113.3, 24.0}}, label: 'Missed',
+                    Button, {{128.0, 742.7}, {93.7, 24.0}}, label: 'Taken'
+                )}
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at YourMedication.scrollToToday (/Users/sangam/Documents/android/android-automation/test/pageobjects/medication/yourmedicationpage.js:359:19)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/IOSSpecs/insightsspecs/insightsspecs.js:1147:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

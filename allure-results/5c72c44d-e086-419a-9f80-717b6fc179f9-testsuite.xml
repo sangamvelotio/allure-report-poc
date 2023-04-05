@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669184565926' stop='1669184580097'>
+    <name>KK-4710 Appointment booking for Nile Next + consent Form</name>
+    <title>KK-4710 Appointment booking for Nile Next + consent Form</title>
+    <test-cases>
+        <test-case start='1669184565927' status='broken' stop='1669184580096'>
+            <name>KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image</name>
+            <title>KK-T2369 Verify user is unable to proceed in case uploading only front or only back of the card image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://kokoon.atlassian.net/projects/AND?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/KK-T2371'/>
+                <label name='story' value='KK-4841 [Patient] Insurance flow (only Photo Gallery)'/>
+                <label name='issue' value='https://kokoon.atlassian.net/browse/KK-4714'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+                <parameter kind='environment-variable' name='DeviceName' value='emulator-5554'/>
+                <parameter kind='environment-variable' name='OS Version' value='11'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='Android'/>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ed5fd52f-5eb7-4cd6-8796-86d4d958a7f6-attachment.png' type='image/png' size='160037'/>
+            </attachments>
+            <failure>
+                <message>androidtext is not defined</message>
+                <stack-trace>ReferenceError: androidtext is not defined
+                    at InsuranceScanPage.frontUploadImageError (/Users/sangam/Documents/android/android-automation/test/pageobjects/Insurance/insuranceScanPage.js:121:20)
+                    at Context.&lt;anonymous> (/Users/sangam/Documents/android/android-automation/test/specs/AndroidSpecs/VirtualClinicSpecs/BookAppointmentSpecs.js:338:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
