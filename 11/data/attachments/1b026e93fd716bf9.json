@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[text()=\"BACKUP SUMMARY\"]/../..//div[text()=\"Success\"]/..//*[name()='tspan'][1]"
+}

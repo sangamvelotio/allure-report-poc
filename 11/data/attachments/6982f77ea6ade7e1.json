@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class,\"cluster-tiles\")]//span[text()=\"primary\"]/../../preceding-sibling::div//div/*/div/span[text()='Available']"
+}
