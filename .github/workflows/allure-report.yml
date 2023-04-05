@@ -1,50 +1,19 @@
-# This workflow is triggered when a push or pull request event happens on the repository
+name: allure-report
+
 on:
-  # Triggers the workflow on push or pull request events but only for the "develop" branch
-  schedule:
-    - cron: '0 14 * * 1-5'
+  release:
+    types:
+      - created
   push:
-    branches:
-      - main
-      - develop
-      - allure-history
-  pull_request:
-    branches:
-      - main
-      - develop
-      - allure-history
-  deployment:
-    branches:
-      - main
-      - develop
-      - allure-history
-  # Allow to run the workflow manually
-  workflow_dispatch:
-    paths:
-      - '!.gitlab-ci.yml'
-      - '!allure-template.yml'
-      - '**/allure-history.yml'
-      - 'allure-report-action/*'
+    branches-ignore:
+      - '!master'
 
 jobs:
-  autotests:
-    name: Upload allure results to Allure EE
+  allure:
+    name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - uses: actions/cache@v1
-        with:
-          path: |
-            ~/.m2/repository
-            ~/.gradle/caches
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
-      - name: Set up JDK
-        uses: actions/setup-java@v1
-        with:
-          java-version: 1.8
 
       - name: Get Allure history
         uses: actions/checkout@v2
@@ -54,17 +23,16 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Allure Report action
+      - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
-        #uses: ./allure-report-action
         if: always()
         #id: allure-report
         with:
-          allure_results: build/allure-results
+          allure_results: allure-results
           #gh_pages: gh-pages
           #allure_report: allure-report
-          allure_history: allure-history/allure-history
-          keep_reports: 5
+          allure_history: allure-history
+          keep_reports: 20
 
       - name: Deploy report to Github Pages
         if: always()
@@ -72,4 +40,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history/allure-history
+          PUBLISH_DIR: allure-history
