@@ -1,11 +1,25 @@
-name: Allure Reports with history
-
+# This workflow is triggered when a push or pull request event happens on the repository
 on:
-  #schedule:
-  #  - cron: '*/5 * * * *' # every 5 minutes
+  # Triggers the workflow on push or pull request events but only for the "develop" branch
+  schedule:
+    - cron: '0 14 * * 1-5'
   push:
-    branches-ignore:
-      - '!master' # ignore gh-pages
+    branches:
+      - main
+      - develop
+      - allure-history
+  pull_request:
+    branches:
+      - main
+      - develop
+      - allure-history
+  deployment:
+    branches:
+      - main
+      - develop
+      - allure-history
+  # Allow to run the workflow manually
+  workflow_dispatch:
     paths:
       - '!.gitlab-ci.yml'
       - '!allure-template.yml'
