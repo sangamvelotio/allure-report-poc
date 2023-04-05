@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@placeholder='Search Label']/../div[contains(@class,'icon-container')]/*[local-name()=\"svg\"]"
+}
