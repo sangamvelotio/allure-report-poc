@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[text()='Continue']/preceding-sibling::button[text()='Cancel']"
+}

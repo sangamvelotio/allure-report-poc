@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"collapse show\"]//div//div[text()=\"Namespace\"]/../following-sibling::div//div[@title=\"cdfdsfds\"]"
+}

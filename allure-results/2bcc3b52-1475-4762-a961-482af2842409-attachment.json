@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[text()=\"patchIfAlreadyExists\"]/following-sibling::div/label/input[@type=\"checkbox\"]"
+}

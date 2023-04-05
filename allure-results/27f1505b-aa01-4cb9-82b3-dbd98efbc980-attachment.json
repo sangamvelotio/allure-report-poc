@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//label[@for=\"name\"]/following-sibling::span[text()=\"*\"]"
+}

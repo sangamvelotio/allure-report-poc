@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[text()=\"Namespace :\"]/following-sibling::span//div[contains(@class,\"placeholder\") or contains(@class,\"singleValue\")]"
+}

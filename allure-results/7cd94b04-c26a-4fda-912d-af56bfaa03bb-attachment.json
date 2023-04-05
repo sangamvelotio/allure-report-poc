@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[text()=\"Retention policy allows the user to specify interval wise number of backups to retain.User can specify multiple intervals\"]"
+}

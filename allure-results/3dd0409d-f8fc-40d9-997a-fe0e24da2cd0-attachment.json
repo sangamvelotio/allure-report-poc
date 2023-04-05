@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[@title=\"Application\"]/../preceding-sibling::td[1]//div[text()=\"Available\"]/../../preceding-sibling::td[2]/span/span"
+}

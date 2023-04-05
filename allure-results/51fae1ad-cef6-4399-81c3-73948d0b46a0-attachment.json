@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[text()=\"You are changing the namespace, doing this will erase all the form data.\"]"
+}

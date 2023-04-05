@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[text()=\"Multi-namespace\"]/../../parent::div/following-sibling::div/div"
+}

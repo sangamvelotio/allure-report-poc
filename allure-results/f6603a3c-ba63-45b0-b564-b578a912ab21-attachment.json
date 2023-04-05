@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//tr[2]/td[1]/span/span"
+}

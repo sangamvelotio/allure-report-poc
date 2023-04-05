@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[text()=\"If this flag is ON, then Helm applications will get preserved as it is in the Namespace backup. When you restore such backup, you will get the helm application as it is.\"]"
+}

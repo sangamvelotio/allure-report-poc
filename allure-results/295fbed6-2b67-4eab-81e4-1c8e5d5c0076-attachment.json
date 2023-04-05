@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[@title=\"message: singlens-backupplan188175 backupPlan custom resource can not be deleted as it's in use by backup CR\"]"
+}

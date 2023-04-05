@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class,\"placeholder\") or contains(@class,\"singleValue\")]"
+}

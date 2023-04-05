@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[text()=\"Restore Scope:\"]/following-sibling::div/div[contains(@class,\"singleValue\")]"
+}

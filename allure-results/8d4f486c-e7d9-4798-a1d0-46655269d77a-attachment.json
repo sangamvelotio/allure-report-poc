@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[text()=\"Backupplan Type :\"]/following-sibling::div/div[contains(@class,\"singleValue\")]"
+}

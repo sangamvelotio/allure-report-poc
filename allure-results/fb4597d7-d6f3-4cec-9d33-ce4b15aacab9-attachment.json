@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//label[text()=\"Object Locking\"]/../following-sibling::div//label[contains(@class,\"switch\")]"
+}

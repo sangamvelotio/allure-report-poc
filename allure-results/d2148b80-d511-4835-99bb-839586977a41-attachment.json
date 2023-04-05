@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[text()=\"Target is the storage where the created backup (resource configs and volume data) is stored.\"]"
+}

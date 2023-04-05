@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//small[contains(text(),\"Browsing will\")]"
+}

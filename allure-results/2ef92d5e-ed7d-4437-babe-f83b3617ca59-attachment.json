@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//td[text()=\"autosml0n\"]/../td[3]"
+}

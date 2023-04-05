@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"collapse show\"]/.././following-sibling::div/div[@class=\"collapse\"]//preceding-sibling::div[1]//*[name()=\"svg\"]"
+}

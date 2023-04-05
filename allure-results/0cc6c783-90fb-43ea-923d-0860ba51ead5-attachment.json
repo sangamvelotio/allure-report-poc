@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class, 'tooltip-inner')]/div/div/*[local-name()='svg']"
+}

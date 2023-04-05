@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[text()=\"app-scope-pushkar\"]/../../following-sibling::td[11]//span[text()=\"Actions\"]/following-sibling::div//*[name()=\"svg\"]"
+}

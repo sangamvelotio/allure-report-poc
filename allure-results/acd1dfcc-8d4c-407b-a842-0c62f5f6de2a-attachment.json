@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[text()=\"Name must consist of lower case alphanumeric characters, '-' or '.', and must start and end with an alphanumeric character\"]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//label[text()=\"Transformation Type\"]/../following-sibling::div//div[contains(@class,\"singleValue\")]"
+}

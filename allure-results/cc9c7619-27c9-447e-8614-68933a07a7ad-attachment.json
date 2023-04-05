@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//th//span[text()='Restore Summary']/../../../following-sibling::tbody/tr[1]/td[14]/span/div[contains(@title,\"Click to view summary details\")]/div[1]/div[2]"
+}

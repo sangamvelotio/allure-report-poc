@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[text()=\"For example user can specify the number of backups to retain as follows:\"]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[text()='Full Backup:']/following-sibling::div/*/*/*/*/div[contains(@class, 'placeholder')]"
+}
