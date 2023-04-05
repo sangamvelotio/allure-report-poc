@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[text()='ALL']/following-sibling::div/*/*/*/*[contains(@class, 'customTitle')][name()='text']"
+}

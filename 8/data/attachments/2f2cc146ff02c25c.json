@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class,\"cluster-tiles\")]//span[text()=\"pushkar-gke-ns\"]/../../div/span[text()='License Expiry Date']"
+}

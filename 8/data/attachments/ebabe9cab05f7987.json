@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[text()=\"Namespace :\"]/parent::div/following-sibling::div/div/div"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[@title=\"pushkar-gke-ns\"]/../following-sibling::td[4]//span[text()=\"Actions\"]"
+}

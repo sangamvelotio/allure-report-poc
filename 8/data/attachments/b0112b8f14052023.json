@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@Class,\"open-collapsible\")]//a/div[text()=\"Applications\"]"
+}

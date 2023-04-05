@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[text()='Time Range : ']/../div[contains(@class, 'time-field')]/*/div/*/div[contains(@class, 'singleValue')]"
+}
