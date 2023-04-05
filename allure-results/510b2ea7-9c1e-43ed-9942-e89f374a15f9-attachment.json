@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//thead/tr/th[8]/span)[contains(@role, 'columnheader')]"
-}

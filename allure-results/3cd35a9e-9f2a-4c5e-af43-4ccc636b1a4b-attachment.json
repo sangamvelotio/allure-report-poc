@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@class=\"my-5\"]//label[text()=\"Access Key\"]/following-sibling::span[text()=\"*\"]"
-}

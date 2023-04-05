@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//th//span[text()='Backup Summary']/../../../following-sibling::tbody/tr[1]/td[13]/span/div[contains(@title,\"Click to view summary details\")]/div[1]/div[1]"
-}

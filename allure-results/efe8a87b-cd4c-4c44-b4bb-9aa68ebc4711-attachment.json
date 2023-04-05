@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[text()=\"Following list shows all the objects associated with the selected GVK.\"]/following-sibling::div//*[name()=\"svg\"]"
-}

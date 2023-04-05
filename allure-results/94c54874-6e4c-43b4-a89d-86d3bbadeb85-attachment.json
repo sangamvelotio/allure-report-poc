@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div[class=my-5] input#secretKey"
-}

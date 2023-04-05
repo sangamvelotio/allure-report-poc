@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//span[text()=\"Backup Type :\"]/parent::div/following-sibling::div/*/*/*/div[text()=\"Operator\"]"
-}

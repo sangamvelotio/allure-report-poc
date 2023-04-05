@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(@class, 'option')]/span[text()='monthly-sch-copy']"
-}

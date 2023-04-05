@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//tr[@class=\"c-pointer\"]/td[9]"
-}

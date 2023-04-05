@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(@class,'retention-container')]//div[contains(@class,'css-mwizo9')]"
-}

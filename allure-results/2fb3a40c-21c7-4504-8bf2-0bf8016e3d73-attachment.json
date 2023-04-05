@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[text()='Backup Summary']/following-sibling::*/*/div[text()='Queued']/../following-sibling::div"
-}

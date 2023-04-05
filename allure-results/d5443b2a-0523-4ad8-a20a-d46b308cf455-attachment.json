@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[text()=\"Currently no transform components present\"]"
-}

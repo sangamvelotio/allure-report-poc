@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//span[text()=\"Restore Type :\"]/following-sibling::div/div[contains(@class,\"singleValue\")]"
-}

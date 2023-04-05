@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//span[text()='Restore Name']/./../../../../tbody/*/*/span[@title='Toggle Row Expanded']//div//*[name()='svg']"
-}

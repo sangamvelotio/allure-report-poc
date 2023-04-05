@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//span[text()=\"autowhs7c-secret\"]/../../div/following-sibling::span"
-}

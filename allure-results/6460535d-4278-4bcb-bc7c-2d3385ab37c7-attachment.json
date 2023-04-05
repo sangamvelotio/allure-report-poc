@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(text(), 'This backup')]/../following-sibling::div/*/*/input[@name='metadata.name']"
-}

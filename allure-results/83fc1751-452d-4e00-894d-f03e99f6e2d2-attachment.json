@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//label[@for=\"bucketName\"]/following-sibling::span[text()=\"*\"]"
-}

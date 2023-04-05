@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//p[text()=\"Save as new multi-namespace backupplan\"]"
-}

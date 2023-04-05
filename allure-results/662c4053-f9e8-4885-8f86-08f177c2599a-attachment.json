@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[text()=\"STATUS LOG\"]/following-sibling::div//*[name()=\"svg\"]"
-}

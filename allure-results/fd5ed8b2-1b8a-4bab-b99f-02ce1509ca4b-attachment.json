@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//div[contains(@class,'hexagon-container')]/*/div[contains(@class,'application-name')])[9]"
-}

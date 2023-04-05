@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[text()=\"Scheduling policy allows users to specify two schedules, one for Full Backup and another for incremental backup.\"]"
-}

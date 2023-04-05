@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//div[@class=\"collapse show\"]//div[text()=\"Select\"])[1]/preceding-sibling::div[1][text()=\"default\" or text()=\"kube-node-lease\" or text()=\"kube-public\" or text()=\"kube-system\" or text()=\"longhorn-system\"]"
-}

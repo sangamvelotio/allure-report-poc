@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//div[@class='card-header'])[1]"
-}

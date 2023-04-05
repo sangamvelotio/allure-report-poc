@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//label[contains(text(),'HOOK CONFIGURATION')]/../div/div/*[local-name()='svg']"
-}

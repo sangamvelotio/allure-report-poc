@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(@class,\"menu\")]//div[contains(@class,\"option\") and text()=\"Namespace\"]"
-}

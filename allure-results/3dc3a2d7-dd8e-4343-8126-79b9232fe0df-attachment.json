@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(@class,\"cluster-tiles\")]//span[text()=\"primary\"]/../../preceding-sibling::div/div/*/div[text()='Backup Summary']/../div/*/*/*/*//*[name()='tspan'][@class='chart-total-label'][normalize-space()='TOTAL']/preceding-sibling::*[name()='tspan']"
-}

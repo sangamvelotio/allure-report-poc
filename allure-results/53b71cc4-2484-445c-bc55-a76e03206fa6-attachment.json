@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//label[text()=\"Hook\"]/../following-sibling::div//div[contains(@class,'placeholder') or contains(@class,'singleValue') ]"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//span[normalize-space()=\"Note: YAMLs can be compared for only 2 TARGETS at a time\"]"
-}

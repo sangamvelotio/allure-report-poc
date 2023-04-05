@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@class=\"status-label\" and text()=\"AVAILABLE\"]/following-sibling::div"
-}
