@@ -1,2 +1,0 @@
-- name: Allure Report with history
-  uses: simple-elf/allure-report-action@v1.6
