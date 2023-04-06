@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(@data-testid,\"course\")]/img[@alt]"
-}
