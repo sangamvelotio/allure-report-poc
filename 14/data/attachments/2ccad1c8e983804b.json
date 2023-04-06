@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//li[@class=\"MuiAutocomplete-option\" and text()=\"Meat Processing Workers Wordlist\"]"
-}
